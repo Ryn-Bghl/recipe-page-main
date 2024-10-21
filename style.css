@@ -84,13 +84,13 @@ h6 {
   --clr-rose-50: hsl(330, 100%, 98%);
 
   /* Font size */
-  --fs-base: 1rem;
-  /* 16px */
-  --fs-subtitle: 1.1875rem;
+  --fs-base: 1.125rem;
+  /* 18px */
+  --fs-subtitle: 1.3125rem;
   /* 20px */
-  --fs-title: 1.8125rem;
+  --fs-title: 1.875rem;
   /* 24px */
-  --fs-main-title: 2.5rem;
+  --fs-main-title: 2.375rem;
   /* 32px */
 
   /* Font family */
