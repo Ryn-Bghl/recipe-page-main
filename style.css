@@ -190,7 +190,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 1rem;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--clr-stone-150);
 }
 
 .recipe__nutrition td {
