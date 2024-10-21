@@ -80,6 +80,7 @@ h6 {
   --clr-stone-1000: hsl(24, 10%, 21%);
 
   --clr-brown-800: hsl(14, 45%, 36%);
+  --clr-brown-100: hsl(29, 53%, 90%);
 
   --clr-rose-800: hsl(332, 51%, 32%);
   --clr-rose-50: hsl(330, 100%, 98%);
@@ -203,4 +204,38 @@ h2 {
 
 .recipe__nutrition span {
   color: var(--clr-brown-800);
+}
+
+@media (min-width: 46.1875rem) {
+  body {
+    background-color: var(--clr-brown-100);
+  }
+
+  main {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 7.8125rem 0 7.8125rem 0;
+    padding: 2.5rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    max-width: 46.1875rem;
+    width: 100%;
+    height: max-content;
+  }
+
+  .recipe__img {
+    border-radius: 1rem;
+  }
+
+  .recipe__container {
+    margin: 2rem 0 0 0;
+  }
+
+  .recipe__prep-time,
+  .recipe__ingredients,
+  .recipe__instructions,
+  .recipe__nutrition {
+    line-height: 2rem;
+  }
 }
