@@ -84,14 +84,14 @@ h6 {
   --clr-rose-50: hsl(330, 100%, 98%);
 
   /* Font size */
-  --fs-base: 1.125rem;
-  /* 18px */
-  --fs-subtitle: 1.3125rem;
-  /* 20px */
-  --fs-title: 1.875rem;
-  /* 24px */
-  --fs-main-title: 2.375rem;
+  --fs-base: 1rem;
+  /* 16px */
+  --fs-subtitle: 1.75rem;
+  /* 28px */
+  --fs-title: 2rem;
   /* 32px */
+  --fs-main-title: 2.5rem;
+  /* 40px */
 
   /* Font family */
   --ff-head: "Young Serif", sans-serif;
@@ -108,14 +108,19 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--ff-head);
 }
 
 h1 {
-  font-size: var(--fs-title);
+  font-size: var(--fs-main-title);
 }
 
 h2 {
+  font-size: var(--fs-title);
+}
+
+h3 {
   font-size: var(--fs-subtitle);
 }
