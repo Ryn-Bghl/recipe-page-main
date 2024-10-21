@@ -145,6 +145,7 @@ ul {
   padding: 1rem;
 }
 
+/* intro */
 .recipe__intro {
   display: flex;
   flex-direction: column;
@@ -156,6 +157,7 @@ ul {
   line-height: 2rem;
 }
 
+/* prep time */
 .recipe__prep-time {
   background-color: var(--clr-rose-50);
   padding: 1.5rem;
@@ -163,4 +165,13 @@ ul {
 
 .recipe__prep-time li {
   padding-left: 1.5rem;
+}
+
+/* ingredients */
+.recipe__ingredients li {
+  padding-left: 1.5rem;
+}
+
+.recipe__ingredients h2 {
+  color: hsl(14, 45%, 36%);
 }
