@@ -178,7 +178,8 @@ h2 {
 }
 
 .recipe__nutrition h2 {
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
+  margin-bottom: 1rem;
 }
 
 .recipe__nutrition p {
