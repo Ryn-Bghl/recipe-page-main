@@ -155,7 +155,6 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-
 }
 
 .recipe__intro h1 {
@@ -176,6 +175,10 @@ li {
 /* recipe headers */
 h2 {
   color: var(--clr-brown-800);
+}
+
+.recipe__nutrition h2 {
+  margin-bottom: 0.5rem;
 }
 
 .recipe__nutrition p {
