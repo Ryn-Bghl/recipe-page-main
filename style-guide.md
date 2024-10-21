@@ -27,6 +27,32 @@ The designs were created to the following widths:
 
 ### Body Copy
 
+#### Mobile
+
+```css
+  --fs-base: 0.875rem;
+  /* 14px */
+  --fs-subtitle: 1.5rem;
+  /* 24px */
+  --fs-title: 1.75rem;
+  /* 28px */
+  --fs-main-title: 2rem;
+  /* 32px */
+```
+
+#### Desktop
+
+```css
+  --fs-base: 1rem;
+  /* 16px */
+  --fs-subtitle: 1.75rem;
+  /* 28px */
+  --fs-title: 2rem;
+  /* 32px */
+  --fs-main-title: 2.5rem;
+  /* 40px */
+```
+
 - Font size (paragraph): 16px
 
 ### Fonts
