@@ -198,6 +198,5 @@ h2 {
 }
 
 .recipe__nutrition span {
-  color: red;
-  /* color: var(--clr-brown-800); */
+  color: var(--clr-brown-800);
 }
