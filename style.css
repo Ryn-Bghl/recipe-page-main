@@ -4,14 +4,14 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /*
     2. Remove default margin
   */
 * {
-    margin: 0;
+  margin: 0;
 }
 
 /*
@@ -20,8 +20,8 @@
     4. Improve text rendering
   */
 body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
 /*
@@ -32,8 +32,8 @@ picture,
 video,
 canvas,
 svg {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 /*
@@ -43,7 +43,7 @@ input,
 button,
 textarea,
 select {
-    font: inherit;
+  font: inherit;
 }
 
 /*
@@ -56,7 +56,8 @@ h3,
 h4,
 h5,
 h6 {
-    overflow-wrap: break-word;
+  font-size: medium;
+  overflow-wrap: break-word;
 }
 
 /*
@@ -64,40 +65,57 @@ h6 {
   */
 #root,
 #__next {
-    isolation: isolate;
+  isolation: isolate;
 }
 
 :root {
-    /* Screen widths */
-    --width-mobile: 375px;
-    --width-desktop: 1440px;
+  /* Screen widths */
+  --width-mobile: 375px;
+  --width-desktop: 1440px;
 
-    --clr-stone-100: hsl(30, 54%, 100%);
-    --clr-stone-150: hsl(30, 18%, 97%);
-    --clr-stone-600: hsl(30, 10%, 54%);
-    --clr-stone-900: hsl(24, 5%, 34%);
+  --clr-stone-100: hsl(30, 54%, 100%);
+  --clr-stone-150: hsl(30, 18%, 97%);
+  --clr-stone-600: hsl(30, 10%, 54%);
+  --clr-stone-900: hsl(24, 5%, 34%);
 
-    --clr-brown-800: hsl(14, 45%, 36%);
+  --clr-brown-800: hsl(14, 45%, 36%);
 
-    --clr-rose-800: hsl(332, 51%, 32%);
-    --clr-rose-50: hsl(330, 100%, 98%);
+  --clr-rose-800: hsl(332, 51%, 32%);
+  --clr-rose-50: hsl(330, 100%, 98%);
 
-    /* Font size */
-    --fs-base: 1rem;
-    /* 16px */
-    --fs-small: 0.875rem;
-    /* 14px */
-    --fs-base: 1rem;
-    /* 16px */
-    --fs-large: 1.25rem;
-    /* 20px */
+  /* Font size */
+  --fs-base: 1rem;
+  /* 16px */
+  --fs-subtitle: 1.1875rem;
+  /* 20px */
+  --fs-title: 1.8125rem;
+  /* 24px */
+  --fs-main-title: 2.5rem;
+  /* 32px */
 
-    /* Font family */
-    --ff-primary: "Young Serif", sans-serif;
-    --ff-primary: "Outfit", sans-serif;
+  /* Font family */
+  --ff-head: "Young Serif", sans-serif;
+  --ff-body: "Outfit", sans-serif;
 
-    /* Font weights */
-    --fw-regular: 400;
-    --fw-medium: 600;
-    --fw-bold: 700;
+  /* Font weights */
+  --fw-regular: 400;
+  --fw-medium: 600;
+  --fw-bold: 700;
+}
+
+body {
+  font-family: var(--ff-body);
+}
+
+h1,
+h2 {
+  font-family: var(--ff-head);
+}
+
+h1 {
+  font-size: var(--fs-title);
+}
+
+h2 {
+  font-size: var(--fs-subtitle);
 }
